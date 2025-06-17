@@ -1,13 +1,15 @@
 
 import { CollaborativeEditor } from "@/component/editor";
 import { Room } from "./Room";
+import LoginPage from "@/app/loginPage";
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
-      <Room>
+      {/* <Room>
         <CollaborativeEditor />
-      </Room>
+      </Room> */}
+      <LoginPage />
     </main>
   );
 }
